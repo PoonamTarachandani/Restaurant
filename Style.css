@@ -1,0 +1,99 @@
+﻿body {
+ background-image: url('images/WEZY-2105-14.jpg');
+ background-size:cover;
+ min-height:700px;
+
+   
+}
+
+.navbar-inverse{
+    background-color: #222;
+    border-color: #080808;
+
+}
+.MainImage{
+ 
+    background-image: url('images/these-are-houston-s-13-most-important-bars.jpg');
+    min-height:700px;
+    background-size:cover;
+}
+
+
+
+
+.Info{
+    padding-top:50px;
+    color:white;
+    
+
+}
+p{
+    text-indent:80px;
+}
+
+
+.img{
+    background:url(imgaes/dessert1.jpg);
+    width:224px;
+    height:200px;
+   
+}
+.carousel{
+  
+    margin-top:200px;
+    margin-bottom:600px;
+    margin-right:20%;
+     margin-left:20%;
+     background-color:grey;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.first-slide{
+   
+    margin-left:10.5%;
+  margin-right:10.5%;
+    
+}
+.second-slide{
+     margin-left:10.5%;
+   margin-right:10.5%;
+}
+.third-slide {
+    margin-left: 10.5%;
+     margin-right:10.5%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
+    /*display: block;*/
+    max-width: 78%;
+    height: 500px;
+}
+.panel-group{
+    margin-top:150px;
+    color:orange;
+}
+
+.panel-default>.panel-heading {
+    background-color:grey;
+    color:black;
+}
+.heading{
+   text-align:center;
+    padding-bottom:20px;
+    color:orangered;
+   
+    font-weight:bolder;
+}
+.para2{
+    margin-top:20px;
+}
+.para3{
+    margin-top:20px;
+}
+.contact{
+    color:white;
+    margin-right:100px;
+}
+.bar{
+    margin-left:600px;
+}

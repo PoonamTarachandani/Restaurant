@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coolest bar </title>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!--let's add normalize.css http://necolas.github.io/normalize.css/ to remove any standard browser based styling-->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div class="MainImage">
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Menu.html">Menu</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact us</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!--<h2>Accordion Example</h2>
+            <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>-->
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Cocktails</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Cosmopolitan</li>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Manhattan</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Jack Rose</li>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Chocolate Martini</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Mint Julep</li>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Last Word</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Appetizers</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="font-size:large;">Ceviche</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Seafood cooked in lime juice garnished with cilantro</h5>
+                                    <li style="font-size:large;">Tuna Tartare</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Raw Tuna served on the bed of greens</h5>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="font-size:large;">Rissotto Balls</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Deep fried in olive oil sprinkled with parmesan</h5>
+                                    <li style="font-size:large;">Beef Tartare</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Raw cubed Beef topped with quail egg</h5>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="font-size:large;">Oysters</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Oysters on the half shell on the bed of ice</h5>
+                                    <li style="font-size:large;">Mini Duck Tacos</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Crispy fried duck meat in an asian taco shell with plum sauce and scallions</h5>
+
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Main Course</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="font-size:large;">Fillet Mignon</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Grilled Beef with mushroom sauce</h5>
+                                    <li style="font-size:large;">Rack Of Lamb</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Grilled Lamb with mint jelly</h5>
+
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="font-size:large;">Grilled Salmon</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Baked Fish with green beans & garlic</h5>
+                                    <li style="font-size:large;">Lobster Tail</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Boiled Lobster with melted butter</h5>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="font-size:large;">Fried Duck Breast</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Crispy fried duck breast with house special sauce</h5>
+                                    <li style="font-size:large;">Oxtail stew</li>
+                                    <h5 style="color:#5C4033;font-family: 'Sofia', cursive;">Braised oxtail with onion,carror & celery in rich gravy</h5>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Dessert</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Brownie with Vanilla ice-cream</li>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Chocolate Cake</li>
+
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Cheesecake with strawberries</li>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Flan</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Maccaroons with Espresso</li>
+                                    <li style="color:#5C4033;font-family: 'Sofia', cursive;font-size:large;">Nuetella crepes</li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
